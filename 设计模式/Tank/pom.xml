@@ -49,6 +49,13 @@
             <!-- 若仅测试需要日志，可添加scope=test；若业务也需要，去掉scope -->
             <scope>test</scope>
         </dependency>
+
+        <!-- Netty 核心依赖 -->
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.94.Final</version> <!-- 建议使用最新稳定版本 -->
+        </dependency>
     </dependencies>
 
 </project>
