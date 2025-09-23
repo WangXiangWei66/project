@@ -68,7 +68,27 @@
         <dependency>
             <groupId>cglib</groupId>
             <artifactId>cglib</artifactId>
-            <version>3.2.6</version>
+            <version>3.3.0</version>
+        </dependency>
+
+        <!-- 添加 ASM 9.7 依赖（支持 JDK 23） -->
+        <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm</artifactId>
+            <version>9.7</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>7.0.0-M8</version>
+        </dependency>
+        <!-- AspectJ 支持（用于解析 @Aspect 等注解） -->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.9.9.1</version>
         </dependency>
     </dependencies>
 
